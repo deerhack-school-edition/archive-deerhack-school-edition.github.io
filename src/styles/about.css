@@ -1,0 +1,29 @@
+#about{
+  background-color: var(--surface-light);
+
+  position: relative;
+  isolation: isolate;
+
+  flex-direction: column;
+}
+
+
+#about::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../assets/shadow2.png");
+  background-size: cover;
+  background-position: center;
+
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wave2dep{
+    width:100%;
+    height:auto;
+    position: absolute;
+    top:0;
+}
